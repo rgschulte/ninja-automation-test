@@ -1,3 +1,11 @@
 {
-    
+    "reporter": [
+        {
+            "name": "qase"
+        },
+        {
+            "name": "spec"
+        }
+    ]
+        
 }

@@ -1,0 +1,19 @@
+{
+  "name": "ninja-automation-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "testcafe chrome ./tests/devices_registration/",
+    "test:qase": "npx testcafe chrome ./tests/devices_registration/ -r spec,qase"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^2.5.1-rc.1",
+    "testcafe-reporter-qase": "^1.2.0-alpha.2"
+  }
+}

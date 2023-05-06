@@ -10,7 +10,9 @@ const updated_device = {
     hddCapacity: '1000'
 }
 
-test('Update Existing Device', async t => {
+test
+    .meta({CID: [3]})
+    ('Update Existing Device', async t => {
     const response = await request_helper.updateDevice('e8okoP2l5', updated_device);
     await t.eval(() => location.reload(true));
     await t.expect(homepage.deviceName.withText(updated_device.name).visible).ok();

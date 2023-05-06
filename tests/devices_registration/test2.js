@@ -10,7 +10,9 @@ const new_device = {
     hddCapacity: '500'
 }
 
-test('Create a new Device', async t => {
+test
+    .meta({CID: [2]})
+    ('Create a new Device', async t => {
 
     await homepage.clickAddDeviceButton();
     await add_device_page.typeSystemName(new_device.name);

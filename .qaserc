@@ -1,0 +1,7 @@
+{
+    "enabled": true,
+    "logging": true,
+    "apiToken": "6ad86893e6f051eb840b183fe6af09bf3404b8d1761366799529f6aa4eb91321",
+    "projectCode": "NTP",
+    "runName": "Automated Test Run %DATE% %AGENTS%"
+}
