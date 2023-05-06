@@ -1,0 +1,1 @@
+# ninja-automation-test
