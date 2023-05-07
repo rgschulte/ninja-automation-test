@@ -43,4 +43,4 @@ The instructions are being described in this document, however let's summarize h
 - Files like `.qaserc` and `.testcaferc.json` should be files added to git ignore due to the sensitive information that they carry such as important variables and api keys, for example. In this repository they were commited just for the sake of this test so people will be able to clone it and run it properly.
 - All test cases have their correct information set such as positive/negative, steps, type etc, you only need to open them in a full screen for a better view. 
 - QASE can be also integrated to Jira or other project management tools to make an even better workflow.
-- Maybe some things could be done better coding wise, I'm sure of that, however this was my first time using TestCafe. 
+- Maybe some things could be done better coding wise, I'm sure of that, however this was my first time using TestCafe because I've been using Cypress for quite some time. Great framework, though. Surprised me in a positive way. 
