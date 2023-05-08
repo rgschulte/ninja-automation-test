@@ -2,8 +2,6 @@ import {t, Selector } from 'testcafe';
 
 class Homepage {
     constructor () {
-        // this.nameInput               = Selector('input').withAttribute('data-testid', 'name-input');
-        // this.importantFeaturesLabels = Selector('legend').withExactText('Which features are important to you:').parent().child('p').child('label');
         this.addDeviceButton = Selector('.submitButton').withText('ADD DEVICE');
         this.deviceName = Selector('.device-name');
         this.deviceType = Selector('.device-type');
